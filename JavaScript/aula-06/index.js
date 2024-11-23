@@ -15,3 +15,11 @@ var semConteudo; //declarando uma variável
 console.log(semConteudo)
 
 var curso = "front-end em React", topico = "JavaScript Básico 1";
+
+// ! NÃO UTILIZE O VAR NO JAVASCRIPT
+
+let notaDoAluno = 10;
+const mediaDoAluno = 8;
+
+notaDoAluno = 9;
+console.log (notaDoAluno)
